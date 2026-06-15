@@ -1,0 +1,74 @@
+# Core Libraries
+python-dotenv
+pydantic
+requests
+numpy
+pandas
+
+# LangChain
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-mistralai
+
+
+# LLM Providers
+openai
+langchain-openai
+mistralai
+
+# Embeddings
+sentence-transformers
+transformers
+torch
+
+# Vector Database
+faiss-cpu
+chromadb
+
+# Document Processing
+pypdf
+pdfplumber
+pymupdf
+unstructured
+
+# Text Processing
+tiktoken
+nltk
+
+# Web Scraping
+beautifulsoup4
+lxml
+
+# API Framework
+fastapi
+uvicorn
+
+# UI (Optional)
+streamlit
+
+# Database (Optional)
+sqlalchemy
+
+# Logging & Utilities
+tqdm
+
+# Environment Variables
+python-decouple
+
+# Evaluation (Optional)
+ragas
+datasets
+
+# Hugging Face
+huggingface-hub
+
+# Tokenizers
+tokenizers
+
+
+
+
+
+mistralai
