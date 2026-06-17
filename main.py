@@ -1,11 +1,13 @@
 from dotenv import load_dotenv
 from langchain_mistralai import ChatMistralAI
 from langchain_community.document_loaders import TextLoader
+from langchain_community.document_loaders import PyPDFLoader
 from langchain_core.prompts import ChatPromptTemplate
 
 load_dotenv()
 
-data = TextLoader("Document Loaders/notes.txt")
+# data = TextLoader("Document Loaders/notes.txt")
+data = PyPDFLoader("Document Loaders/GRU.pdf")
 docs = data.load()
 template = ChatPromptTemplate.from_messages(
     [("system", "you are a AI that summarizes the text"),
